@@ -2,18 +2,15 @@
 margin: 0;
 padding: 0;
 scroll-behavior: smooth;
-
 }
 
 #nav-section1{
-
 display: flex;
 width: 100%;
 background-color: rgb(6, 78, 50);
 position: relative;
 height: 79px;
 box-sizing: border-box;
-
 }
 
 #nav-section1 img{
@@ -22,27 +19,19 @@ margin-left: 5rem;
 }
 
 @media(max-width:1260px){
-
-
     #nav-section1 img{
-       
-        margin-left: 2rem;
+     margin-left: 2rem;
         }
-
-
 }
 
 #nav-section1 .side-sec{
-
-    display: flex;
-   position: absolute;
+display: flex;
+position: absolute;
 right: 4%;
-
 }
 
 .side-sec .sec2{
 text-align: center;
-
 }
 
 
@@ -71,12 +60,7 @@ font-weight: lighter;
     font-family: sans-serif;
     font-weight: lighter;
     color: rgb(161, 159, 159);
-
-     }
-
-      
-
-     
+     }  
 
 #nav-section1 .sec1 {
     margin: 1rem;
@@ -85,18 +69,13 @@ font-weight: lighter;
 
     #nav-section1 .sec1 i{
 color: rgb(226, 111, 69);
-
     }
     
 #nav-section1 .sec2 {
     margin: 1.2rem;
     cursor: pointer;
-   
-
-    }
-    
-
-
+   }
+  
 #nav-section1 .side-sec .sec2 i{
     color: white;
 font-size: 1.4rem;
@@ -105,13 +84,10 @@ margin-bottom: 0.2rem;
     }
 
     #nav-section1 .side-sec .sec2 i:hover{
-        color:rgb(255, 123, 0);
-   
+        color:rgb(255, 123, 0);   
         }
 
-
 #nav-section2{
-
 width: 100%;
 padding: 1.5rem;
 background-color: rgb(7, 94, 68);
@@ -119,14 +95,9 @@ box-sizing: border-box;
 display: flex;
 position: relative;
 z-index: 1;
-
-
 }
 
-
-
-#nav-section2 a{
-    
+#nav-section2 a{   
     font-family: sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -137,9 +108,7 @@ z-index: 1;
     margin-left: 1.2rem;
 }
 
-
 #nav-section2 button{
-
     outline: none;
     border-width: 0px;
     padding: 0.4rem 2rem;
@@ -155,59 +124,35 @@ z-index: 1;
     bottom: 15%;
     }
     
-    #nav-section2 button:hover{
-    
+    #nav-section2 button:hover{    
     background-color:rgb(226, 111, 69);
-    color: white;
-    
+    color: white;    
     }
 
 #nav-section2 a i{
-
 font-size: 0.8rem;
 color: rgb(226, 111, 69);
-
 }
-
 
 @media(max-width:1260px){
-
 #nav-section1 .side-sec{
 right: 1%;
-
 }
-
-
 }
-
 
 @media(max-width:1105px){
-
     #nav-section1 .side-sec{
     display: none;
-    
     }
-
     
     #nav-section2{
-        display: none;
-        
+        display: none;        
         }
     
-
         #nav-section1{
            background-color: white;
-            
-            }
-        
-
-
-
-
-
+            }       
     }
-
-
 
 .flexes{
     display: flex;
@@ -218,15 +163,9 @@ box-sizing: border-box;
 text-align: center;
 justify-content: center;
 flex-wrap: wrap;
-
 }
 
-
-
-
-
 .flexes .flex-parts{
-
 height: 240px;
 width: 260px;
 border-right: 1px solid rgb(160, 157, 157);
@@ -234,27 +173,20 @@ display: grid;
 place-items: center;
 padding: 0rem 2rem;
 cursor: pointer;
-
 }
 
 
 .flexes .flex-parts:nth-child(4){
-    border-right: none;  
-    
+    border-right: none; 
     }
 
 @media(max-width:1260px){
-
-
     .flexes .flex-parts{
 border-right: none;       
         }
-
 }
 
-
 .flexes .flex-parts .h2{
-
 color: white;
 text-transform: capitalize;
 font-size: 1.7rem;
@@ -264,19 +196,15 @@ transition: all 0.5s;
 }
 
 @media(max-width:693px){
-
-
     .flexes .flex-parts{
         border-bottom:1px solid rgb(160, 157, 157);       
                 }
 
                 .flexes .flex-parts:nth-child(4){
-                    border-bottom: none;  
-                    
+                    border-bottom: none;                      
                     }
 
 }
-
 
 .animation1{
 animation: 0.4s linear animation1 infinite;
@@ -285,22 +213,15 @@ animation-fill-mode: forwards;
 animation-iteration-count: 1;
 }
 
-
 @keyframes animation1{
     0%{
-        margin-top: -0rem;     
-      
-        }
-        
-        
-
+        margin-top: -0rem;    
+              }              
 100%{
 margin-top: -10rem;
 }
 
 }
-
-
 
 .animation2{
     animation: 0.4s linear animation2 infinite;
@@ -308,17 +229,13 @@ margin-top: -10rem;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     }
-    
-    
+        
     @keyframes animation2{
         0%{
          opacity: 1;
          font-size: 1rem; 
-
-            }
-            
-            
-    
+            }         
+               
     100%{
         opacity: 0.2;
         font-size: 0.5rem; 
@@ -327,9 +244,7 @@ margin-top: -10rem;
     
     }
 
-
 .flexes .flex-parts h4{
-
     color: white;
     text-transform: capitalize;
     font-size: 1rem;
@@ -341,38 +256,26 @@ margin-top: -10rem;
     display: none;
 }
 
-
-
 .animation3{
     animation: 0.4s linear animation3 infinite;
     transition: all 0.2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     }
-    
-    
+        
     @keyframes animation3{
         0%{
          opacity: 0.5;
          font-size: 0.5rem; 
-
             }
-            
-            
-    
-    100%{
+                      
+        100%{
         opacity: 1;
-        font-size: 1.2rem; 
-        
+        font-size: 1.2rem;        
     }
-    
-    }
-
-
-
+        }
 
 #footer{
-
 display: flex;
 justify-content: space-around;
 background-color: rgb(7, 94, 68);
@@ -382,19 +285,13 @@ padding-top: 6.5rem;
 flex-wrap: wrap;
 }
 
-
 @media(max-width:1260px){
-
-
 #footer{
 justify-content: unset;
 height: auto;
 padding-bottom: 3rem;
 }
-
-
 }
-
 
 #footer h2{
 font-size: 1.7rem;
@@ -408,11 +305,9 @@ text-transform: capitalize;
     flex-wrap: wrap;
 }
 
-
 #footer .foot-sec{
     margin: 2rem;
-    
-}
+    }
 
 #footer .foot-sec p{
     text-transform: capitalize;
@@ -421,32 +316,22 @@ text-transform: capitalize;
     color: white;
     font-size: 1rem;
     font-weight: lighter;
-
-
 }
-
 
 .icons i{
-
 color: white;
 font-size: 1.4rem;
-
 }
-
-
 
 .icons i:nth-child(2){
     margin-left: 1rem;
 }
 
-
 .icons i:nth-child(3){
     margin-left: 1rem;
 }
 
-
 #footer .foot-sec a{
-
 text-transform: capitalize;
 font-family: sans-serif;
 text-decoration: none;
@@ -456,15 +341,12 @@ font-weight: lighter;
 }
 
 .last-foot{
-
 width: 100%;
 background-color: rgb(6, 68, 50);
 height: 65px;
 position: relative;
 flex-wrap: wrap;
 }
-
-
 
 .last-foot a{
     text-transform: capitalize;
@@ -474,31 +356,19 @@ text-decoration: none;
 color: white;
 margin-left: 2rem;
 position: relative;
-
 }
-
 
 .last-foot .butons{
 padding-top: 1.2rem;
-
 }
 
-
-
-
-
 .last-foot .las-btn{
-
 position: absolute;
 right: 6%;
 margin-top: -1rem;
-
 }
 
-
 @media(max-width:725px){
-
-
     .last-foot .las-btn{
         position: unset;
         display: block;
@@ -510,56 +380,39 @@ margin-top: -1rem;
      padding-right: 3rem;
      margin-left: 3rem;
     }
-    
-    
+        
     .last-foot{
         display: flex;
         justify-content:center;
         height: auto;
         padding: 1rem;
-        box-sizing: border-box;
-    
+        box-sizing: border-box;    
 }
-
 
 .last-foot a{
  text-align: left;
 margin-left: 1rem;
 }
-
-
 }
-
-
-
-
-
 
 #gallery{
 width: 100%;
 place-items: center;
 display: grid;
-
 padding: 5rem 0rem;
 box-sizing: border-box;
 }
-
 
 #gallery .main-galery{
 width: 100%;
 }
 
-
-
-
 #gallery .main-galery .galery-flex1{
-
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 height: auto;
 }
-
 
 .galery-flex1 .gallery-sec{
     text-align: center;
@@ -568,14 +421,11 @@ height: auto;
     box-sizing: border-box;
 }
 
-
-
 .galery-flex2 .gallery-sec{
     text-align: center;
     margin: 1.1rem;
     box-sizing: border-box;
     cursor: pointer;
-
 }
 
 .galery-flex1 .gallery-sec h2{
@@ -599,7 +449,6 @@ margin-top: 1rem;
     text-transform: capitalize;
     font-weight: lighter;
 font-family: sans-serif;
-
     }
 
     
@@ -609,7 +458,6 @@ font-family: sans-serif;
     font-weight: lighter;
 font-family: sans-serif;
 color: rgb(161, 159, 159);
-
     }
 
 .galery-flex2 .gallery-sec h2{
@@ -622,14 +470,11 @@ color:  rgb(6, 68, 50);
 
 
 #gallery .galery-flex2{
-
     display: flex;
     justify-content: space-around;
 flex-wrap: wrap;
-height: auto;
-    
+height: auto;   
     }
-
 
 #gallery .galery-flex1 .gallery-sec .up:hover{
 transform: translate(0px,-15px);
@@ -637,49 +482,37 @@ transition: all 0.5s;
 box-shadow: 0 0 15px rgb(80, 79, 79);
 }
 
-
 #gallery .galery-flex2 .gallery-sec .up:hover {
     transform: translate(0px,-15px);
     transition: all 0.5s;
     box-shadow: 0 0 15px rgb(80, 79, 79);
     background: linear-gradient(rgb(182, 180, 180));
-
     }
-
     
 #gallery .galery-flex2 .gallery-sec:hover .line{
     width: 11rem;
-
     }
 
     
 #gallery .galery-flex1 .gallery-sec:hover .line{
     width: 11rem;
-
-    }
-
-    
+    }  
 
  .galery-flex1  .gallery-sec:nth-child(1) .up{
 height: 230px;
 width: 320px;
 background-image: url(hunters-race-MYbhN8KaaEc-unsplash.jpg);
 background-size: cover;
-
 background-position: center;
 }
-
-    
-
+   
  .galery-flex1 .gallery-sec:nth-child(2) .up{
     height: 230px;
     width: 320px;
     background-image: url(christin-hume-Hcfwew744z4-unsplash.jpg);
     background-size: cover;
 background-position: center;
-
     }
-
 
      .galery-flex1 .gallery-sec:nth-child(3) .up{
         height: 230px;
@@ -687,9 +520,7 @@ background-position: center;
         background-image: url(annie-spratt-w17rvzEglgY-unsplash.jpg);
         background-size: cover;
 background-position: center;
-
         }
-
         
 .galery-flex1 .gallery-sec:nth-child(4) .up{
     height: 230px;
@@ -697,9 +528,7 @@ background-position: center;
     background-image: url(redd-PTRzqc_h1r4-unsplash.jpg);
     background-size: cover;
 background-position: center;
-
     }
-
     
  .galery-flex2  .gallery-sec:nth-child(1) .up{
     height: 230px;
@@ -717,18 +546,15 @@ background-position: center;
         background-image: url(tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg);
         background-size: cover;
     background-position: center;
-    
-        }
-    
-    
+            }
+        
          .galery-flex2 .gallery-sec:nth-child(3) .up{
             height: 230px;
             width: 320px;
             background-image: url(zoe-holling-Deg_jGchsuA-unsplash.jpg);
             background-size: cover;
     background-position: center;
-    
-            }
+                }
     
             
     .galery-flex2 .gallery-sec:nth-child(4) .up{
@@ -737,21 +563,15 @@ background-position: center;
         background-image: url(romain-dancre-doplSDELX7E-unsplash.jpg);
         background-size: cover;
     background-position: center;
-    
-        }
-    
+            }   
 
        .line{
-
 width: 0rem;
 background-color:  rgb(14, 160, 118);
 height: 0.1rem;
 margin-left: 5rem;
 transition: all 0.5s;
         }
-
-
-
 
 .text{
 text-align: center;
@@ -760,100 +580,72 @@ width: 100%;
 padding: 1.3rem;
 box-sizing:border-box ;
 margin-bottom: 2.8rem;
-
 }
 
 .text h1{
-
     font-size: 3.3rem;
     font-weight: lighter;
     text-transform: capitalize;
 }
 
-
 .text p{
-
     font-size: 1.3rem;
     font-weight: lighter;    
     font-family: sans-serif;
     color: rgb(150, 147, 147);
 }
 
-
 @media(max-width:1168px){
-
 .footed{
-
 justify-content: center;
 }
 
-
 .footer{
-
     justify-content: unset;
     }
 
 .foot-sec:nth-child(4){
 text-align: center;
-
 }
 
-
 }
-
 
 @media(max-width:890px){
-
     .foot-sec:nth-child(4){
-        text-align: unset;
-        
-        }  
-}
-
-
-@media(max-width:630px){
-
-    .foot-sec:nth-child(4){
-        text-align: center;
-        
+        text-align: unset;        
         }  
 }
 
 @media(max-width:630px){
+    .foot-sec:nth-child(4){
+        text-align: center;        
+        }  
+}
 
+@media(max-width:630px){
 .foot-sec:nth-child(1){
 text-align: center;
 justify-content: center;
 margin: 0.2rem;
 }
 
-
 .foot-sec:nth-child(4){
     text-align: left;
     justify-content: left;
     }
-
 }
 
-
 @media(max-width:386px){
-
     .foot-sec:nth-child(1){
     text-align: unset;
     justify-content: unset;
     margin: 0.2rem;
     }
     
-
     .footed{
-
         justify-content: unset;
         }
-        
-
-
-    }
-
+           }
 
 @media(max-width:400px){
 
@@ -862,8 +654,6 @@ display: none;
     }
     
     }
-
-
 
     .flex-section{
 display: flex;
@@ -881,117 +671,80 @@ padding-top: 3rem;
 
 }
 
-
-.flex-section .flex-sec2{
-   
+.flex-section .flex-sec2{  
     justify-content: center;
-   width: 920px;
-   
+   width: 920px;   
 }
 
-
 .flex-section .flex-sec1{
-  
-   width: 560px;
-  
-  display: grid; 
+     width: 560px;
+    display: grid; 
   place-items: center;
 }
 
-
    .flex-section  .flex2-part2{
-
 display: flex;
 justify-content: center;
-
-
    }
 
 @media(max-width:1260px){
-
-
-    .flex-section .flex-sec1{
-       
+    .flex-section .flex-sec1{       
        width: 100%;     
       display: grid; 
       place-items: center;
       box-sizing: border-box;
     }
-    
-    
+        
     .flex-section .flex-sec2{
-       
        width: 100%;     
       display: grid; 
       place-items: center;
 margin-top: 3rem;
 box-sizing: border-box;
     }
-
-
-
-
 }
 
-
-
    .flex-section .flex2-part1 p{
-
 font-family: sans-serif;
 font-size: 1.1rem;
 color: rgb(121, 119, 119);
 margin: 1rem;
 box-sizing: border-box;
    }
-
    
    .flex-section .flex2-part3 p{
-
     font-family: sans-serif;
     font-size: 1.1rem;
     color: rgb(95, 93, 93);
 margin: 1rem;
 box-sizing: border-box;
-
        }
-
-
        
 .flex-sec1 h1{
-
     font-weight: lighter;
 }
 
 @media(max-width:450px){
-
 .flex-sec1 h1{
-
     text-align: center;
     font-size: 1.5rem;
     font-weight: lighter;
 }
 
-
 }
 
-
        @media(max-width:945px){
-
-
         .flex-section  .flex2-part2{
 justify-content: unset;
                }
-
 
                 .flex-section .flex2-part2{
 flex-wrap: wrap;
                     justify-content: center;
                 }
-
        }
 
 .part1 .img{
-
     height: 600px;
     width: 430px;
     background-image: url(https://justicia.qodeinteractive.com/wp-content/uploads/2018/09/about2-img-2.jpg);
@@ -999,33 +752,21 @@ flex-wrap: wrap;
     background-size: cover;
 }
 
-
 .part2 .img{
-
     height: 600px;
     width: 430px;
     background-image: url(https://justicia.qodeinteractive.com/wp-content/uploads/2018/09/about2-img-3.jpg);
     background-position: center;
     background-size: cover;
-
 }
 
-
-
-
-       @media(max-width:745px){
-
-
-        .flex-section  .flex2-part2  .img{
+@media(max-width:745px){
+.flex-section  .flex2-part2  .img{
 width: 360px;
 height: 430px;
-
                }
 
-
-
        }
-
        
        @media(max-width:391px){
 
