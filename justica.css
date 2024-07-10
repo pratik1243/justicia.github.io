@@ -1094,10 +1094,10 @@
   font-family: sans-serif;
 }
 
-.up {
+/* .up {
   animation: 1s linear up infinite;
   animation-iteration-count: 1;
-}
+} */
 
 @keyframes up {
   0% {
